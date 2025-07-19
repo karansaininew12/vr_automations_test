@@ -1,0 +1,110 @@
+.coin-table-container {
+  background: #23272f;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+  padding: 1.5rem;
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.coin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.coin-table th, .coin-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.coin-table th {
+  background: #23272f;
+  color: #00b894;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 2px solid #2d323c;
+}
+
+.coin-table tr {
+  border-bottom: 1px solid #2d323c;
+  transition: background 0.2s;
+}
+
+.coin-table tr:hover {
+  background: #20242a;
+}
+
+.coin-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  background: #181c20;
+  border: 1px solid #2d323c;
+}
+
+.coin-details {
+  display: flex;
+  align-items: center;
+}
+
+.coin-names {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-name {
+  font-weight: 500;
+  color: #f5f6fa;
+}
+
+.coin-symbol {
+  font-size: 0.9em;
+  color: #b2bec3;
+}
+
+.rank {
+  font-weight: 600;
+  color: #636e72;
+}
+
+.price {
+  font-weight: 500;
+}
+
+.change.positive {
+  color: #00b894;
+}
+
+.change.negative {
+  color: #e17055;
+}
+
+.market-cap {
+  font-size: 0.98em;
+  color: #b2bec3;
+}
+
+.last-updated {
+  font-size: 0.95em;
+  color: #636e72;
+}
+
+.sortable {
+  user-select: none;
+}
+
+.sort-icon {
+  margin-left: 0.3em;
+  vertical-align: middle;
+}
+
+.trend-icon.positive {
+  color: #00b894;
+  margin-right: 0.2em;
+}
+
+.trend-icon.negative {
+  color: #e17055;
+  margin-right: 0.2em;
+}
